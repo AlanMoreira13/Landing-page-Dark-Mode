@@ -101,7 +101,11 @@ main {
 .bi-whatsapp {
     font-size: 4rem;
     color: #54EE73;
-    
+}
+
+a:hover {
+    animation: spin 1s linear ;
+
 }
 
 /* Dark Theme */
@@ -135,4 +139,14 @@ main {
 
 .dark .description {
     color: #2196f3;
+}
+
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
