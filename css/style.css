@@ -150,3 +150,54 @@ a:hover {
         transform: rotate(360deg);
     }
 }
+
+@media (max-width: 470px) {
+    header {
+        padding: 1rem;
+        justify-content: space-around;
+        
+    }
+
+  
+   
+
+    .card {
+        margin-top: 2rem;
+        flex-direction: column;
+        width:80%;
+    }
+
+    .card-image  {
+        
+        height: max-content;
+        text-align: center;
+        padding:  1rem;
+
+    }
+    .card img {
+        width: 100%;
+        position: relative;
+        right: 10px;
+        top: 4rem;
+    }
+
+    .card-image span {
+        font-size: 3rem;
+    }
+
+    .card-image, .card-details {
+        width: 100%;
+    }
+    .card-details {
+        height: max-content;
+        padding: 2rem 1.5rem 0 1.5rem;
+        
+    }
+    
+    .description {
+        margin-bottom: 0;
+        font-size: 1.1rem;
+    }
+
+    
+}
